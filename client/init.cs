@@ -1,3 +1,11 @@
+/**
+* <author>Christophe Roblin</author>
+* <url>https://github.com/LiF-x</url>
+* <credits>https://github.com/LiF-x</credits>
+* <description>Public repository to let everyone help on core functionality added to the LiFx serverautoloader</description>
+* <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+*/
+
 exec("./jettison.cs");
 exec("./sha256.cs");
 if (!isObject(LiFx))
