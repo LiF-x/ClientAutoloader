@@ -13,7 +13,7 @@
   "loadOrderNote": "Framework-adjacent: this is the client-side framework itself, so its payload must be in place before any client mod that registers against the LiFx client hooks.",
   "files": {
     "overlay": [
-      { "src": "client/", "dest": "client/", "target": "client" }
+      { "src": "client/", "dest": "yolauncher/modpack/client/" }
     ],
     "dataPatches": []
   }
