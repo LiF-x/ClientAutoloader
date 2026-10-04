@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ClientAutoloader",
+  "name": "LiFx ClientAutoloader",
+  "version": "3.0.0",
+  "description": "Client-side mod framework for Life is Feudal: Your Own: discovers and loads client mods, fires client hooks, provides autojoin, an in-game knowledge base key, a version overlay, file-hash verification and a bundled JSON library.",
+  "authors": ["Christophe Roblin", "lif-x community"],
+  "source": { "repo": "LiF-x/ClientAutoloader", "commit": "8b898e6f03dfbdaefe329699d956aa2d6f4f5b19" },
+  "baseline": { "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a", "steamBuildId": "11261643" },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "loadOrderHint": 50,
+  "loadOrderNote": "Framework-adjacent: this is the client-side framework itself, so its payload must be in place before any client mod that registers against the LiFx client hooks.",
+  "files": {
+    "overlay": [
+      { "src": "client/", "dest": "yolauncher/modpack/client/" }
+    ],
+    "dataPatches": []
+  }
+}
